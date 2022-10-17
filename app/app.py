@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, current_app, g
 import time
 import pymongo
-import docker
+
 # client = pymongo.MongoClient("mongodb+srv://ncku_gwhsu:123@cluster0.wtz5pwg.mongodb.net/?retryWrites=true&w=majority")
 # db = client['containers']['delay1']  # service1
 
